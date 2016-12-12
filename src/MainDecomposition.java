@@ -7,7 +7,7 @@ public class MainDecomposition {
     int n = polygon.n ;                       //保存 点 个数
     double[][] t = new double[n][n];          //保存多边形vi-1 vk vj  之间的最佳权值
     int[][] mid = new int[n][n];               //保存vi-1 vj最优三角剖分的中间点
-
+    int mmm=0;
 
     public double[][] weight(){                   //两点之间的权重计算
         double[][] weight = new double[n][n];
